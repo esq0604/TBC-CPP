@@ -45,8 +45,8 @@ int main()
 	
 	std::cout << x << std::endl;
 
-	int z;
-	std::cout << z << std::endl;
+	//int z;
+	//std::cout << z << std::endl;
 
 	return 0;
 }
