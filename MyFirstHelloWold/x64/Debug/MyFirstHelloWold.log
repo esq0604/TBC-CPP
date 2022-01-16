@@ -1,3 +1,5 @@
-﻿  소스.cpp
-  LINK : C:\Users\user1\TBC-CPP\x64\Debug\MyFirstHelloWold.exe not found or not built by the last incremental link; performing full link
-  MyFirstHelloWold.vcxproj -> C:\Users\user1\TBC-CPP\x64\Debug\MyFirstHelloWold.exe
+﻿  선언과 정의분리.cpp
+  소스.cpp
+  코드를 생성하고 있습니다...
+소스.obj : error LNK2005: main이(가) 선언과 정의분리.obj에 이미 정의되어 있습니다.
+C:\Users\Administrator\Desktop\TBC-CPP\x64\Debug\MyFirstHelloWold.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
