@@ -1,2 +1,2 @@
 ﻿  불리언자료형조건문if.cpp
-  Chapter2-6.vcxproj -> C:\Users\dltkd\source\repos\TBC-CPP\x64\Debug\Chapter2-6.exe
+LINK : fatal error LNK1158: 'rc.exe'을(를) 실행할 수 없습니다.

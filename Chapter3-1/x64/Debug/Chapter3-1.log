@@ -1,4 +1,2 @@
-﻿  연산자_우선순위_결합법칙.cpp
-c:\tbc-cpp\chapter3-1\연산자_우선순위_결합법칙.cpp(29): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Chapter3-1.vcxproj -> C:\TBC-CPP\x64\Debug\Chapter3-1.exe
+﻿  Chapter3-1.vcxproj -> C:\TBC-CPP\x64\Debug\Chapter3-1.exe
   Chapter3-1.vcxproj -> C:\TBC-CPP\x64\Debug\Chapter3-1.pdb (Partial PDB)

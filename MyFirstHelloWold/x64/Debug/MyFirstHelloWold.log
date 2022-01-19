@@ -1,5 +1,1 @@
-﻿  선언과 정의분리.cpp
-  소스.cpp
-  코드를 생성하고 있습니다...
-소스.obj : error LNK2005: main이(가) 선언과 정의분리.obj에 이미 정의되어 있습니다.
-C:\Users\Administrator\Desktop\TBC-CPP\x64\Debug\MyFirstHelloWold.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: The build tools for v142 (Platform Toolset = 'v142') cannot be found. To build using the v142 build tools, please install v142 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
