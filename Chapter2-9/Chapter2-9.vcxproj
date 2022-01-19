@@ -110,6 +110,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="심볼릭상수.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MY_CONSTANTS.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
