@@ -1,0 +1,4 @@
+﻿  논리연산자.cpp
+C:\TBC-CPP\Chapter3-6\논리연산자.cpp(65,2): warning C4552: '!': 식의 결과가 사용되지 않습니다.
+C:\TBC-CPP\Chapter3-6\논리연산자.cpp(68,2): warning C4552: '!': 식의 결과가 사용되지 않습니다.
+  Chapter3-6.vcxproj -> C:\TBC-CPP\x64\Debug\Chapter3-6.exe
