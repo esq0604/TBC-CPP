@@ -94,5 +94,32 @@ int main()
 	}
 	cout << bitset<8>(items_flag) << endl;
 
+	//rgb color table 참고
+	//16진수는 2^4, 씩  4번. 32비트. 0000 0000 0000 0000 -> 0xFF0000은 FF앞에 00이 생략된것. 
+	const unsigned int red_mask		= 0xFF0000;
+	const unsigned int green_mask	= 0x00FF00;
+	const unsigned int blue_mask	= 0x0000FF;
 
+
+	cout << std::bitset<32>(red_mask) << endl;
+	cout << std::bitset<32>(green_mask) << endl;
+	cout << std::bitset<32>(blue_mask) << endl;
+
+
+	unsigned int pixel_color = 0xDDA520;	
+
+	cout << std::bitset<32>(pixel_color) << endl;
+
+	unsigned char blue = pixel_color & blue_mask;
+	unsigned char green = (pixel_color & green_mask)>>8;
+	unsigned char red = (pixel_color & red_mask)>>16;
+	//블루 마스크부분만 추출함. 
+	cout << "blue " << bitset<8>(blue) <<" "<<int(blue) <<endl;
+	cout << "green " << bitset<8>(green) << " " << int(green) << endl;
+	cout << "red " << bitset<8>(red) << " " << int(red) << endl;
+
+	
+	//unsigned char red, green, blue;
+
+	return 0;
 }
